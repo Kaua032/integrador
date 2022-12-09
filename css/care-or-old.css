@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: linear-gradient(0deg, #200dff, #594bfd);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container > a {
+  width: 90px;
+  height: 90px;
+  margin: 65px 0px 0px 38px;
+}
+#opcoes {
+  display: flex;
+  margin: auto;
+  gap: 289px;
+}
+.bola {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+.bola > img {
+  margin: auto;
+}
+.cuidador,
+.idoso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+}
+.button {
+  width: 380px;
+  height: 70px;
+  background: #008f87;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

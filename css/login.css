@@ -8,7 +8,7 @@ body {
 .login1 {
   width: 50%;
   height: 100vh;
-  background: linear-gradient(54deg, #200dff, #594bfd);
+  background: linear-gradient(45deg, #200dff, #594bfd);
   display: flex;
   justify-content: center;
   align-items: center;
