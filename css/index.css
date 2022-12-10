@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+footer {
+  background: #1f1f1f;
+  margin-top: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 233px;
+  padding: 35px 0px 32px 0px;
+}
+footer > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#social1,
+#social2 {
+  display: flex;
+  gap: 10px;
+}
+#social1,
+#social2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  text-decoration: none;
+}
