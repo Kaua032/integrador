@@ -37,7 +37,12 @@
   border-radius: 15px;
   width: 1024px;
   height: 40px;
-  padding: 18px 0px 0px 25px;
+  padding: 10px 0px 10px 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
 }
 .cadastro > input::placeholder {
   font-family: "Roboto";

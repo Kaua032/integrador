@@ -3,6 +3,101 @@
   padding: 0;
   outline: none;
 }
+header {
+  width: 100%;
+  background: linear-gradient(270deg, #200dff, #594bfd);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 110px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.logo > a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.part2 > input {
+  width: 722px;
+  height: 31px;
+  border-radius: 5px;
+  border: none;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 11px;
+}
+li > a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #fff;
+  text-decoration: none;
+}
+li {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #fff;
+  text-decoration: none;
+}
+#inicio {
+  width: 84px;
+  border-right: 1px solid #fff;
+}
+#categorias {
+  width: 155px;
+  border-right: 1px solid #fff;
+}
+#historico {
+  width: 150px;
+  border-right: 1px solid #fff;
+}
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.perfil > a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #fff;
+}
+#bola {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 footer {
   background: #1f1f1f;
   margin-top: 145px;
@@ -13,7 +108,7 @@ footer {
   padding: 35px 0px 32px 0px;
 }
 footer > p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -32,7 +127,7 @@ footer > p {
 }
 #social1,
 #social2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
