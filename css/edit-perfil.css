@@ -1,0 +1,101 @@
+#azul {
+  background: linear-gradient(180deg, #001aff 0%, #220fff 100%);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#branco {
+  width: 50%;
+  height: 100vh;
+}
+#edit-perfil-usuario {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+#edit-perfil-usuario > p {
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 66px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  padding: 15px;
+}
+.bola-perfil {
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+}
+#branco-titulo1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+}
+#branco {
+  display: flex;
+  justify-content: center;
+}
+.conteudo-branco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.conteudo-branco > textarea {
+  border: 2px solid #594bfd;
+  border-radius: 66px;
+  width: 702px;
+  height: 245px;
+  padding: 10px 55px 10px 55px;
+  margin-top: 14px;
+}
+#branco-titulo2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 32px;
+  border: 2px solid #000000;
+  border-radius: 66px;
+  width: 332px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+  margin-left: 37px;
+}
+#dados-pessoais {
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 37px;
+}
+#dados-pessoais > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #424242;
+}
+#oldercare {
+  width: 100%;
+  text-align: center;
+}
