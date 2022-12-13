@@ -3,6 +3,10 @@
   padding: 0;
   outline: none;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
 header {
   width: 100%;
   background: linear-gradient(270deg, #200dff, #594bfd);
@@ -44,7 +48,7 @@ nav > ul {
   list-style: none;
   gap: 11px;
 }
-li > a {
+.li-nav > a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -53,7 +57,7 @@ li > a {
   color: #fff;
   text-decoration: none;
 }
-li {
+.li-nav {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -61,6 +65,9 @@ li {
   line-height: 29px;
   color: #fff;
   text-decoration: none;
+}
+.li-nav {
+  cursor: pointer;
 }
 #inicio {
   width: 84px;
@@ -80,7 +87,7 @@ li {
   align-items: center;
   gap: 25px;
 }
-.perfil > a {
+.perfil > p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -88,6 +95,13 @@ li {
   line-height: 23px;
   text-decoration: none;
   color: #fff;
+}
+.perfil > p:hover {
+  cursor: pointer;
+}
+
+.perfil > img {
+  cursor: pointer;
 }
 #bola {
   width: 50px;
@@ -97,6 +111,137 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#mainindex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 1092px;
+}
+#titulo {
+  display: flex;
+  margin-top: 40px;
+  width: 298px;
+  height: 34px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f20303;
+  border-radius: 66px;
+}
+#texto {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 50px;
+}
+#botao-mais {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 70px;
+  width: 74px;
+}
+#botao-mais:hover {
+  cursor: pointer;
+}
+#botao-menos {
+  display: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 70px;
+  cursor: pointer;
+  width: 74px;
+}
+#titulo-carrossel-cuidadores {
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 66px;
+  width: 324px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 111px;
+}
+#cuidadores-tudo {
+  width: 1316px;
+  margin-top: 43px;
+}
+#cuidadores-perfis {
+  display: flex;
+  align-items: center;
+  margin-top: 62px;
+  gap: 74px;
+}
+.seta {
+  width: 90px;
+  height: 90px;
+}
+.cuidador {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  justify-content: center;
+  align-items: center;
+}
+.nomes {
+  width: 298px;
+  height: 34px;
+  border: 2px solid #594bfd;
+  border-radius: 66px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#grid {
+  margin-top: 138px;
+  display: grid;
+  grid-template-areas:
+    "foto1 foto1 foto2 foto2"
+    "foto1 foto1 foto3 foto4";
+  gap: 20px;
+}
+#foto1 {
+  grid-area: foto1;
+}
+#foto2 {
+  grid-area: foto2;
+}
+#foto3 {
+  grid-area: foto3;
+}
+#foto4 {
+  grid-area: foto4;
 }
 footer {
   background: #1f1f1f;
@@ -134,4 +279,72 @@ footer > p {
   line-height: 14px;
   color: #fff;
   text-decoration: none;
+}
+.modal {
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+#modal1,
+#modal2,
+#modal3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 226px;
+  background-color: #1f1f1f;
+}
+#modal1 {
+  margin-top: 94px;
+  margin-left: 1023px;
+  display: none;
+}
+#modal2 {
+  margin-top: 94px;
+  margin-left: 1171px;
+  display: none;
+}
+#modal3 {
+  margin-top: 71px;
+  margin-left: 2011px;
+  display: none;
+}
+.x {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125.9%;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+hr {
+  border: 1px solid #000;
+}
+#modal1 > ul,
+#modal2 > ul,
+#modal3 > ul {
+  list-style: none;
+  width: 100%;
+}
+.modal1link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.modal1link:hover {
+  opacity: 70%;
+}
+.modal1link > li {
+  padding: 5px;
+}
+.setinha {
+  margin-top: -10px;
 }

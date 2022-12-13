@@ -10,93 +10,68 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/index.css" />
-    <script src="./js/script.js"></script>
-    <title>OlderCare - Início</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/ajuda.css" />
+    <script src="../js/script.js"></script>
+    <title>OlderCare - Ajuda</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="./index.html">
-          <img src="./images/Logo.png" alt="" />
+        <a href="../index.html">
+          <img src="../images/Logo.png" alt="" />
         </a>
-        <a href="./index.html">OlderCare</a>
+        <a href="../index.html">OlderCare</a>
       </div>
       <div class="part2">
         <input type="text" />
         <nav>
           <ul>
-            <li class="li-nav" id="inicio"><a href="">Início</a></li>
+            <li class="li-nav" id="inicio">
+              <a href="../index.html">Início</a>
+            </li>
             <li class="li-nav" id="categorias" onclick="abrircategoria()">
-              Categorias <img src="./vectors/vector.png" alt="" />
+              Categorias <img src="../vectors/vector.png" alt="" />
             </li>
             <li class="li-nav" id="historico" onclick="abrirhistorico()">
-              Histórico <img src="./vectors/vector.png" alt="" />
+              Histórico <img src="../vectors/vector.png" alt="" />
             </li>
-            <li class="li-nav" id="ajuda">
-              <a href="./pages/ajuda.html">Ajuda</a>
-            </li>
+            <li class="li-nav" id="ajuda"><a href="">Ajuda</a></li>
           </ul>
         </nav>
       </div>
       <div class="perfil">
         <div id="bola">
-          <img src="./vectors/fotoperfilcabecalho.png" alt="" />
+          <img src="../vectors/fotoperfilcabecalho.png" alt="" />
         </div>
         <p onclick="abrirabaperfil()" href="">Usuário</p>
-        <img onclick="abrirabaperfil()" src="./vectors/vector.png" alt="" />
+        <img onclick="abrirabaperfil()" src="../vectors/vector.png" alt="" />
       </div>
     </header>
-    <main id="mainindex">
-      <div>
-        <img src="./images/carrossel.png" alt="" />
-      </div>
-      <div id="description">
-        <img src="./images/propaganda.png" alt="" />
-        <p id="titulo">A melhor farmácia do Brasil</p>
-        <p id="texto">
-          São 32 anos cuidando da sua saúde e, no mês do nosso aniversário quem
-          ganha o presente é você! Confira a festa de ofertas que preparamos!
-          🎉😍
-        </p>
-        <p id="botao-mais" onclick="mais()">...mais</p>
-        <p id="botao-menos" onclick="menos()">Menos</p>
-      </div>
-      <div id="cuidadores-tudo">
-        <p id="titulo-carrossel-cuidadores">Recomendações para Você</p>
-        <div id="cuidadores-perfis">
-          <img class="seta" src="./vectors/esquerda.png" alt="" />
-          <div class="cuidador">
-            <a href=""><img src="./images/pessoa1.png" alt="" /></a>
-            <a class="nomes" href="">Yuri Tamashido</a>
-          </div>
-          <div class="cuidador">
-            <a href=""><img src="./images/pessoa2.png" alt="" /></a>
-            <a class="nomes" href="">João Pereira</a>
-          </div>
-          <div class="cuidador">
-            <a href=""><img src="./images/pessoa3.png" alt="" /></a>
-            <a class="nomes" href="">Gabriel Gomes</a>
-          </div>
-          <img class="seta" src="./vectors/direita.png" alt="" />
-        </div>
-      </div>
-      <div id="grid">
-        <img id="foto1" src="./images/foto1.png" alt="" />
-        <img id="foto2" src="./images/foto2.png" alt="" />
-        <img id="foto3" src="./images/foto3.png" alt="" />
-        <img id="foto4" src="./images/foto4.png" alt="" />
-      </div>
+    <main id="main-ajuda">
+      <p id="titulo-main1">O site é seguro?</p>
+      <p class="main-paragrafo">
+        Claro, contamos com diversas interfaces que analisam os usuários. Além
+        disso, em casos extremos, o banimento é uma opção da plataforma.
+      </p>
+      <p id="titulo-main2">E se eu for vítima de algum</p>
+      <p id="titulo-main3">tipo de golpe ou lesão?</p>
+      <p class="main-paragrafo">
+        Basta descrever sua situação no bloco abaixo para que possamos
+        auxilia-lo (a) da melhor e mais eficiente maneira possível.
+      </p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
     </main>
+
     <footer>
       <p>Todos os direitos reservados Oldcare&copy;</p>
       <div class="sociais">
         <a id="social1" href="">
-          <img src="./vectors/instagram.png" alt="" />
+          <img src="../vectors/instagram.png" alt="" />
           <p>@OldCare</p>
         </a>
         <a id="social2" href="">
-          <img src="./vectors/facebook.png" alt="" />
+          <img src="../vectors/facebook.png" alt="" />
           <p>OldCare</p>
         </a>
       </div>
@@ -104,7 +79,7 @@
     <div class="modal">
       <div id="modal1">
         <div class="setinha">
-          <img src="./vectors/setinha.png" alt="" />
+          <img src="../vectors/setinha.png" alt="" />
         </div>
         <div class="x">
           <p onclick="sair1()">x</p>
@@ -129,7 +104,7 @@
       </div>
       <div id="modal2">
         <div class="setinha">
-          <img src="./vectors/setinha.png" alt="" />
+          <img src="../vectors/setinha.png" alt="" />
         </div>
         <div class="x">
           <p onclick="sair2()">x</p>
@@ -146,13 +121,13 @@
       </div>
       <div id="modal3">
         <div class="setinha">
-          <img src="./vectors/setinha.png" alt="" />
+          <img src="../vectors/setinha.png" alt="" />
         </div>
         <div class="x">
           <p onclick="sair3()">x</p>
         </div>
         <ul>
-          <a class="modal1link" href="./pages/edit-perfil.html"
+          <a class="modal1link" href="../pages/edit-perfil.html"
             ><li>Perfil</li></a
           >
           <hr />
